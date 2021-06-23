@@ -1,0 +1,2 @@
+drawName(Welcome!);
+bouncebubbles();
