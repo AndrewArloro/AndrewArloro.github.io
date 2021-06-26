@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
 .footer {
   font-family: Helvetica, sans-serif;
   height: 100px;
