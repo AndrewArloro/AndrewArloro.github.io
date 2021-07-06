@@ -39,3 +39,14 @@
   transition: background-color 0.2s, color 0.2s;
 }
 
+main {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
