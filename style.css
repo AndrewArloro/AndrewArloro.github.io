@@ -43,7 +43,11 @@ html {
   background-color: black;
 }
 
-h2, p {
+p {
+  color: white;
+}
+
+#Bio, p.Bio {
   color: white;
   font-family: fantasy;
 }
