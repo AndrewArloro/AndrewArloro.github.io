@@ -43,10 +43,7 @@ html {
   background-color: black;
 }
 
-h2 {
+h2, p {
   color: white;
-}
-
-p {
-  color: white;
+  font-family: cursive;
 }
