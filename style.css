@@ -28,8 +28,6 @@ p {
   align-items: center;
   justify-content: left;
   border: 2px solid rgb(32, 64, 86);
-  color: rgb(32, 64, 86);
-  transition: background-color 0.2s, color 0.2s;
 }
 
 .tab button {
