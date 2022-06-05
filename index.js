@@ -12,7 +12,7 @@ message = 'Welcome!';
 drawName(message, letterColors);
 bounceBubbles();
 
-function open(tabContent) {
+function open(stuff, sectionName) {
   // Define variables
   var i, tabcont, tablinks;
   
