@@ -2,6 +2,26 @@
   box-sizing: border-box;
 }
 
+.tab button {
+  background-color: red;
+  float: center;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: green;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid black;
+  border-top: none;
+}
+
 .center {
   text-align: center;
   display: block;
