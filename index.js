@@ -4,7 +4,7 @@ green = [87, 98, 28];
 letterColors = [red, green, white];
 
 mouseResponseThreshold = 500
-friction = 0.85
+friction = 0.75
 rotationForce = 0.045
 
 message = 'Welcome!';
