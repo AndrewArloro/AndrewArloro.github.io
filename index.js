@@ -17,5 +17,18 @@ function open(tabContent) {
   var i, tabcont, tablinks;
   
   // Hide whose class is "tabcont"
-  tab
+  tabcont = document.getElementsByClassName("tabcont");
+  for (i = 0; i < tabcont.length; i++){
+    tabcont[i].style.display = "none";
+  }
+  
+  // Remove the class "active from those whose classes are "tablinks"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace("active", "");
+  }
+  
+  // Show current tab and append "active" class to the tab-opening button
+  document.getElementById(tabContent).style.display = "block";
+  evt.currentTarget.className += " active";
 }
