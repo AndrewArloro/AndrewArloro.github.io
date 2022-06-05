@@ -11,9 +11,9 @@
   transition: 0.3s;
 }
 
-.tab button:hover {
-  background-color: green;
-}
+//.tab button:hover {
+//  background-color: green;
+//}
 
 .tab button.active {
   background-color: white;
@@ -51,18 +51,18 @@
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   border: 2px solid rgb(32, 64, 86);
   color: rgb(32, 64, 86);
   transition: background-color 0.2s, color 0.2s;
 }
 
-.button:hover {
-  cursor: pointer;
-  background-color: rgb(32, 64, 86);;
-  color: white;
-  transition: background-color 0.2s, color 0.2s;
-}
+//.button:hover {
+//  cursor: pointer;
+//  background-color: rgb(32, 64, 86);;
+//  color: white;
+//  transition: background-color 0.2s, color 0.2s;
+//}
 
 html {
   background-color: black;
