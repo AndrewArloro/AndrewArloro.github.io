@@ -40,9 +40,9 @@ p {
   transition: 0.3s;
 }
 
-/*.tab button:hover {
+.tab button:hover {
   background-color: green;
-}*/
+}
 
 .tab button.active {
   background-color: white;
@@ -54,8 +54,8 @@ p {
   padding: 6px 12px;
   border: 1px solid black;
   border-top: none;
-}
-*/
+} */
+
 
 .center {
   text-align: center;
