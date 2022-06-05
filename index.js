@@ -5,7 +5,7 @@ letterColors = [red, green, red];
 
 mouseResponseThreshold = 500
 friction = 0.75
-rotationForce = 0.745
+rotationForce = 0.500
 
 message = 'Welcome!';
 
