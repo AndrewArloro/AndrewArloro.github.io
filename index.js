@@ -11,3 +11,7 @@ message = 'Welcome!';
 
 drawName(message, letterColors);
 bounceBubbles();
+
+function open(tabContent) {
+  var i, tabContent
+}
