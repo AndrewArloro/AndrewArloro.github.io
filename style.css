@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: black;
+}
+
+p {
+  color: white;
+}
+
 .footer {
   font-family: Helvetica, sans-serif;
   height: 100px;
@@ -11,14 +19,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-html {
-  background-color: black;
-}
-
-p {
-  color: white;
 }
 
 .tab {
