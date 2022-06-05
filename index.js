@@ -13,5 +13,9 @@ drawName(message, letterColors);
 bounceBubbles();
 
 function open(tabContent) {
-  var i, tabContent
+  // Define variables
+  var i, tabcont, tablinks;
+  
+  // Hide whose class is "tabcont"
+  tab
 }
