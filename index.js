@@ -18,8 +18,7 @@ function open(sectionName) {
   var x = document.getElementsByClassName("tabcont");
   
   for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace("active", "");
+    x[i] = style.display = "none";
   }
-  
-  document.getElementById(tabContent).style.display = "block";
+  document.getElementById(sectionName).style.display = "block";
 }
