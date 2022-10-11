@@ -26,6 +26,10 @@ a:hover {
   color:red;
 }
 
+a:visited {
+  color:mediumpurple;
+}
+
 /* ADD TABS
 .tab {
   width: 150px;
