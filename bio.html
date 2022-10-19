@@ -13,10 +13,42 @@
             color: white;
             font-family: cursive;
         }
+
+        a:link {
+         color:lawngreen;
+        }
+
+        a:hover {
+            color:red;
+        }
+
+        a:visited {
+            color:mediumpurple;
+        }
+
+        #nav {
+            display: flex;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
     </style>
     <title>Document</title>
 </head>
 <body>
+    <nav id="nav">
+        <ul>
+            <li><a href="/" class="navlink">Home</a></li>
+            <li><a href="/bio" class="navlink">Bio</a></li>
+            <li><a href="/compositions" class="navlink">Compositions</a></li>
+        </ul>
+        <!-- More tabs, such as compositions and recordings, for languages -->
+    </nav>
     <section id="Bio" class="tabcontent">
         <h2 class="Bio">Bio</h2>
             <p>Since I have been very young, I have been taking Piano lessons. Then, I started the Oboe. But, I didn't like all the reeds, so I switched to the French Horn. My instructor also taught me music theory and composition. I recently wrote a piece for my school Wind Ensemble, titled <em>Peaceful Pandemic Project</em>.</p>
