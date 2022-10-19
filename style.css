@@ -69,11 +69,9 @@ ul {
 } */
 
 .navlink {
-  display: none;
   padding: 6px 12px;
   background-color: black;
-  border: 1px solid red;
-  border-top: none;
+  border: 1px solid black;
 }
 
 #Bio {
