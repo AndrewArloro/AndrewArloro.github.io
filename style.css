@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
   color: white;
 }
 
@@ -33,10 +36,11 @@ a:visited {
 
 #nav {
   display: flex;
-  color: black !important;
+  color: black;
 }
 
 ul {
+  display: flex;
   justify-content: space-around;
   width: 50%;
   padding-top: 60px;
