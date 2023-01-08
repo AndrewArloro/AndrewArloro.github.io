@@ -32,10 +32,11 @@ a:visited {
 
 #nav {
   display: flex;
+  flex-direction: row;
+  color: black;
 }
 
 ul {
-  display: flex;
   justify-content: space-around;
   width: 50%;
   padding-top: 60px;
@@ -44,7 +45,7 @@ ul {
 
 .navlink {
   padding: 6px 12px;
-  background-color: black;
+  background-color: red;
   border: 1px solid black;
 }
 
