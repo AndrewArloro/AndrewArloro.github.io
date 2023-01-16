@@ -22,16 +22,16 @@ html {
 }
 
 a:link {
-  color:lawngreen;
+  color: lawngreen;
 }
 
 a:hover {
-  color:white;
+  color: white;
   background-color: red;
 }
 
 a:visited {
-  color:mediumpurple;
+  color: mediumpurple;
 }
 
 #nav {
