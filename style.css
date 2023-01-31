@@ -43,6 +43,13 @@ a:visited {
 #nav {
   display: flex;
   color: black;
+  width: 75%;
+}
+
+#navl {
+  display: flex;
+  color: black;
+  width: ;
 }
 
 ul {
