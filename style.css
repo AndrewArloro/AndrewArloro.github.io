@@ -30,9 +30,9 @@ a:hover {
   background-color: red;
 }
 
-/* a:visited {
-  color: mediumpurple;
-} */
+a:visited {
+  color: lawngreen;
+}
 
 .navlink {
   padding: 6px 12px;
